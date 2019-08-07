@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-  if (0)
+  for(int i=0;i<100000;i++)
   {
-    for(int i=0;i<10000;i++)
+    for(int j=0;j<100000;j++)
     {
       cout<<"Hello World";
     }
