@@ -8,4 +8,8 @@ int main()
   {
     cout<<"Hello World";
   }
+  for(int i=0;i<100000;i++)
+  {
+    cout<<"Hello World";
+  }
 }
