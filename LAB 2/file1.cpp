@@ -1,3 +1,6 @@
+// Program to insert values of array on random positions and then allocating them into new array
+
+
 #include <iostream>
 
 using namespace std;
