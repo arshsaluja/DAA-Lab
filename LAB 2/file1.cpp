@@ -7,10 +7,15 @@ using namespace std;
 
 int main()
 {
-  static int array[10];
+  int array[10];
   int position,number;
   int temp;
   static int count;
+
+  for(int i=0;i<10;i++)
+  {
+    array[i]=NULL;
+  }
 
   for(int i=0;i<10;i++)
   {
@@ -37,7 +42,7 @@ int main()
   cout<<"Sorted array : ";
   for(int j=0;j<10;j++)
   {
-    if(array[j]!=0)
+    if(array[j]!=NULL)
     {
       cout<<array[j]<<" , ";
       count++;
