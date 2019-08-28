@@ -14,9 +14,24 @@ int main()
   cout<<"Max number of elements in series is 10.";
   cout<<endl<<endl;
 
+  start:
   cout<<"Enter the position of elements you want to enter (Not greater than 10) : ";
   cin>>pos1>>pos2;
   cout<<endl;
+
+  if(pos1==pos2)
+  {
+    cout<<"Positions can't be equal.....";
+    cout<<endl<<endl;
+    goto start;
+  }
+
+  if(pos1>10 || pos2>10 || pos1<0 || pos2<0)
+  {
+    cout<<"Positions can't be greater than 10......";
+    cout<<endl<<endl;
+    goto start;
+  }
 
   cout<<"Enter the elements of the series : ";
   cin>>ele1>>ele2;
