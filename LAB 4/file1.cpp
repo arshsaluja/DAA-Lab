@@ -28,6 +28,20 @@ int main()
   d=((ele2-ele1)/(pos2-pos1));
   a=((ele1)-((pos1-1)*d));
 
+  for(int t=1;t<=10;t++)
+  {
+    if(t!=pos1 || t!=pos2)
+    {
+      arr[t-1]=((a)+((t-1)*d));
+    }
+  }
 
+  cout<<endl<<endl;
+
+  cout<<"Arithmetic Series is : ";
+  for(int t=1;t<=10;t++)
+  {
+    cout<<arr[t-1]<<", ";
+  }
   return 0;
 }
