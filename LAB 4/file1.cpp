@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-  int arr[10];
+  float arr[10];
   int pos1,pos2;
-  int ele1,ele2;
-  int a,d;
+  float ele1,ele2;
+  float a,d;
 
   cout<<"PROGRAM TO CALCULATE ARITHMETIC SERIES";
   cout<<endl<<endl;
