@@ -33,7 +33,7 @@ int main()
     goto start;
   }
 
-  cout<<"Enter the elements of the series : ";
+  cout<<"Enter the elements : ";
   cin>>ele1>>ele2;
   cout<<endl;
 
